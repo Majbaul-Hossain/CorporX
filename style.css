@@ -946,3 +946,7 @@ ul.quicklnklistS li a:hover{
     width: 1170px;
     margin: auto;
 }
+.add a {
+        text-decoration: none;
+        color: white;
+    }
