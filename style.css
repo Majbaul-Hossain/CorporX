@@ -844,10 +844,8 @@ footer#consultingandLinks {
     margin: auto;
 }
 .quicklnkssuto {
-    /* overflow: hidden; */
     width: 240px;
     float: left;
-    /* margin-right: 29px; */
 }
 
 .quicklnkssuto h2 {
@@ -881,7 +879,6 @@ ul.quicklnklistS li a:hover{
     font-size: 16px;
     color: #555;
     float: left;
-    /* margin-left: 170px; */
     position: relative;
 }
 
@@ -905,7 +902,14 @@ ul.quicklnklistS li a:hover{
 .getinLocations {
     width: 260px;
 }
-
+.getinLocations a{
+    text-decoration: none;
+    color: white;
+    font-size:16px;
+}
+.getinLocations a:hover{
+    text-decoration:underline;
+}
 .getinLocations i {
     margin-right: 4px;
 }
@@ -946,7 +950,3 @@ ul.quicklnklistS li a:hover{
     width: 1170px;
     margin: auto;
 }
-.add a {
-        text-decoration: none;
-        color: white;
-    }
